@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1599670A2135D5002CCE60 /* datalogging in Sources */ = {isa = PBXBuildFile; fileRef = 1F1599660A2135D5002CCE60 /* datalogging */; };
+		DA1C35EC0EE589C200B598CB /* iUSBDAQSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5B90A90EE50ED100F3094D /* iUSBDAQSupport.framework */; };
+		DA5B90A50EE50E5000F3094D /* iusbdaq.adb in Sources */ = {isa = PBXBuildFile; fileRef = DA5B90A30EE50E5000F3094D /* iusbdaq.adb */; };
+		DA5B90A60EE50E5000F3094D /* iusbdaq.ads in Sources */ = {isa = PBXBuildFile; fileRef = DA5B90A40EE50E5000F3094D /* iusbdaq.ads */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F1599530A213539002CCE60 /* datalogging */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = datalogging; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1599660A2135D5002CCE60 /* datalogging */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = datalogging; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* datalogging.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = datalogging.1; sourceTree = "<group>"; };
+		DA5B90A30EE50E5000F3094D /* iusbdaq.adb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.ada.adb; path = iusbdaq.adb; sourceTree = "<group>"; };
+		DA5B90A40EE50E5000F3094D /* iusbdaq.ads */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.ada.ads; path = iusbdaq.ads; sourceTree = "<group>"; };
+		DA5B90A90EE50ED100F3094D /* iUSBDAQSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iUSBDAQSupport.framework; path = ../Projects/mmg/iusbdaq/iUSBDAQSupport.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1C35EB0EE5894700B598CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1C35EC0EE589C200B598CB /* iUSBDAQSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* datalogging */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = datalogging;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA5B90A90EE50ED100F3094D /* iUSBDAQSupport.framework */,
+				1F1599660A2135D5002CCE60 /* datalogging */,
+				DA5B90A30EE50E5000F3094D /* iusbdaq.adb */,
+				DA5B90A40EE50E5000F3094D /* iusbdaq.ads */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1599530A213539002CCE60 /* datalogging */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* datalogging.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1599520A213539002CCE60 /* datalogging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1599550A213557002CCE60 /* Build configuration list for PBXNativeTarget "datalogging" */;
+			buildPhases = (
+				1F1599510A213539002CCE60 /* Sources */,
+				DA1C35EB0EE5894700B598CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = datalogging;
+			productName = datalogging;
+			productReference = 1F1599530A213539002CCE60 /* datalogging */;
+			productType = "org.macada.product-type.adatool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "datalogging" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* datalogging */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1599520A213539002CCE60 /* datalogging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1599510A213539002CCE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1599670A2135D5002CCE60 /* datalogging in Sources */,
+				DA5B90A50EE50E5000F3094D /* iusbdaq.adb in Sources */,
+				DA5B90A60EE50E5000F3094D /* iusbdaq.ads in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		1F1599560A213557002CCE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../Projects/mmg/iusbdaq\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_ADALINKFLAGS = "-lgcc_s.1";
+				PRODUCT_NAME = datalogging;
+			};
+			name = Debug;
+		};
+		1F1599570A213557002CCE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../Projects/mmg/iusbdaq\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_ADALINKFLAGS = "-lgcc_s.1";
+				PRODUCT_NAME = datalogging;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "datalogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1599550A213557002CCE60 /* Build configuration list for PBXNativeTarget "datalogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1599560A213557002CCE60 /* Debug */,
+				1F1599570A213557002CCE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

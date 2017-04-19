@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 3A7321010EE62ADA00099691 /* datalogging */;
+		activeTarget = 1F1599520A213539002CCE60 /* datalogging */;
+		codeSenseManager = 3A73210D0EE62AF600099691 /* Code sense */;
+		executables = (
+			3A7321010EE62ADA00099691 /* datalogging */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 255706569;
+			PBXWorkspaceStateSaveDate = 255706569;
+		};
+		sourceControlManager = 3A73210C0EE62AF600099691 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1F1599520A213539002CCE60 /* datalogging */ = {
+		activeExec = 0;
+		executables = (
+			3A7321010EE62ADA00099691 /* datalogging */,
+		);
+	};
+	3A7321010EE62ADA00099691 /* datalogging */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = datalogging;
+		sourceDirectories = (
+		);
+	};
+	3A73210C0EE62AF600099691 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	3A73210D0EE62AF600099691 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
